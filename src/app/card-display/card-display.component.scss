@@ -1,0 +1,22 @@
+$cardwidth: 130px;
+$cardHeight: 200px;
+
+.card{
+    width: $cardwidth;
+    height: $cardHeight;
+    margin: 20px 25px;
+}
+
+.card-content{
+    text-align: center;
+    line-height: $cardHeight;
+}
+
+.card-front{
+    background-color: blue;
+    color:white;
+}
+
+.card-back{
+    background-color: purple;
+}
